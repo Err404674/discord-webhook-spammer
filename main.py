@@ -30,9 +30,8 @@ title = f"""
 clear()
 print(title)
 print("""
-                                             Webhook Spammer - v1.0
-                                          https://github.com/LuyaTools
-                                             https://t.me/bladetools
+                                          Discord Webhook Spammer - v1.0
+                                               https://blizz.cf/
 """)
 
 webh = input(w + "[" + y + "+" + w + "] Webhook: ")
@@ -46,6 +45,4 @@ for i in tqdm(range(int(amt)), desc ="Spamming"):
     response = webhook.execute()
 time.sleep(2)
 print("finished")
-os.system("py main.py")
-sys.exit()
 input()
